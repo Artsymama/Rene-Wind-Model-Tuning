@@ -22,3 +22,21 @@ The data provided is a transformed version of original data which was collected 
 Train.csv - To be used for training and tuning of models.
 Test.csv - To be used only for testing the performance of the final best model.
 Both the datasets consist of 40 predictor variables and 1 target variable
+
+Tools used
+•	Python: XGBoost
+•	Numpy library for computation
+•	Seaborn library for informative statistical graphs
+•	Matplotib for interactive visualizations
+•	Sklearn: sklearn.model_selection, sklearn.ensemble, sklearn.tree, sklearn.metrics, sklearn.preporocessing,sklearn.impute, sklearn.pipeline, sklearn.compose
+•	Imblearn: imblearn.over_sampling import SMOTE from imblearn.under_sampling import RandomUnderSampler
+•	
+•	Models: DecisionTreeClassifier, RandomForestClassifier, BaggingClassifier, AdaBoostClassifier, GradientBoostingClassifier, XGBClassifier, and StackingClassifier
+•	Hyperparameter tuning
+
+Tasks Performed
+
+
+
+Business Insights
+
