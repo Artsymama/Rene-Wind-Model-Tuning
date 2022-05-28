@@ -28,15 +28,27 @@ Tools used
 •	Numpy library for computation
 •	Seaborn library for informative statistical graphs
 •	Matplotib for interactive visualizations
-•	Sklearn: sklearn.model_selection, sklearn.ensemble, sklearn.tree, sklearn.metrics, sklearn.preporocessing,sklearn.impute, sklearn.pipeline, sklearn.compose
+•	Sklearn: sklearn.model_selection, sklearn.ensemble, sklearn.tree, sklearn.metrics, sklearn.preporocessing,sklearn.impute, sklearn.pipeline, sklearn.compose, sklearn.linear_model, sklearn.ensemble
 •	Imblearn: imblearn.over_sampling import SMOTE from imblearn.under_sampling import RandomUnderSampler
-•	
+•	Xgboost
 •	Models: DecisionTreeClassifier, RandomForestClassifier, BaggingClassifier, AdaBoostClassifier, GradientBoostingClassifier, XGBClassifier, and StackingClassifier
 •	Hyperparameter tuning
 
 Tasks Performed
-
-
+•	Cleaning data to ensure accurate variable category, remove duplicate values, check for missing values
+•	Plotting histogram and boxplots for all variables in the dataset
+•	Used statistical techniques for hypothesis testing to validate data and interpretation
+•	Build classification models tune them and find the best fit to identify failures in turbines
+•	Hyperparameter tuning prepare model that reduce the overall maintenance cost incurred from frequent turbine breakdowns
+•	Use pipelines to build the final model
+•	Generate predictions translated into True Positive, True Negatives, False positive and False negatives
 
 Business Insights
+•	Identified three most important features that had a direct impact on turbine activity
+•	Determined using model building if a wind turbine would fail or not and thus help reduce costs by at least 20%
+•	The AdaBoost Classifier tuned using oversampled data is the best performance
+
+
+
+
 
